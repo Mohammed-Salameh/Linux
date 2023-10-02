@@ -1,0 +1,15 @@
+To boost the download speed when using the DNF package manager, 
+modify the maximum number of concurrent package downloads in the /etc/dnf/dnf.conf file. By default, 
+DNF is set to 3 parallel downloads. Adjusting this to a higher number, such as 10, can significantly 
+increase the download speed. After making this change and saving the configuration file, subsequent package 
+operations with the DNF command will benefit from faster download speeds.
+
+So open the file using your faviorate editor:
+
+sudo vi /etc/dnf/dnf.conf
+
+Then add the following as shown in the screenshot:
+
+max_parallel_downloads=10
+
+Save and quit.
