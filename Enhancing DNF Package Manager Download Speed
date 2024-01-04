@@ -8,7 +8,7 @@ So open the file using your faviorate editor:
 
 sudo vi /etc/dnf/dnf.conf
 
-Then add the following as shown in the screenshot:
+Then add the following as shown below:
 
 max_parallel_downloads=10
 
